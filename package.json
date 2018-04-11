@@ -64,8 +64,8 @@
     "nodemon": "1.17.2",
     "opentracing": "0.14.1",
     "prettier": "1.11.1",
-    "zipkin": "0.10.1",
-    "zipkin-transport-http": "0.10.1"
+    "zipkin": "^0.10.1",
+    "zipkin-transport-http": "^0.10.1"
   },
   "lint-staged": {
     "*.{js,json,css,md}": ["prettier --write", "git add"]
