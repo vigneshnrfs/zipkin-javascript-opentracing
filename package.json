@@ -12,8 +12,7 @@
     "test": "jest",
     "precommit": "lint-staged",
     "prepare": "npm run build",
-    "fmt": "prettier '**/*.{js,json,css,md}' --write",
-    "postinstall": "npm install && npm run build"
+    "fmt": "prettier '**/*.{js,json,css,md}' --write"
   },
   "jest": {
     "collectCoverage": true,
@@ -64,7 +63,7 @@
     "opentracing": "0.14.3",
     "prettier": "1.12.0",
     "zipkin": "^0.10.1",
-    "zipkin-transport-http": "^0.10.1"
+    "zipkin-transport-http": "^0.11.2"
   },
   "lint-staged": {
     "*.{js,css,md}": [
